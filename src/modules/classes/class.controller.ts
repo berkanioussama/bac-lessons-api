@@ -1,5 +1,5 @@
 import type { Request, Response } from 'express';
-import classService from './class.service';
+import classService from './class.service.js';
 
 class ClassController {
   public async getAllClasses(req: Request, res: Response): Promise<void> {

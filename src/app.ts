@@ -1,8 +1,8 @@
 import express, { type NextFunction } from 'express';
 import type { Request, Response } from 'express';
 import cors from 'cors';
-import classesRouter from './modules/classes/class.routes';
-import lessonsRouter from './modules/lessons/lesson.routes';
+import classesRouter from './modules/classes/class.routes.js';
+import lessonsRouter from './modules/lessons/lesson.routes.js';
 
 const app = express();
 

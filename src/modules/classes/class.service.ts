@@ -1,4 +1,4 @@
-import { classesData, type IClass } from './class.data';
+import { classesData, type IClass } from './class.data.js';
 
 class ClassService {
   private classes: IClass[] = classesData;

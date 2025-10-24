@@ -1,5 +1,5 @@
 import type { Request, Response } from 'express';
-import lessonService from './lesson.service';
+import lessonService from './lesson.service.js';
 
 class LessonController {
   public async getAllLessons(req: Request, res: Response): Promise<void> {

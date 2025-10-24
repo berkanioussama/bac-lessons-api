@@ -1,4 +1,4 @@
-import { type ILesson, lessonsData } from './lesson.data';
+import { type ILesson, lessonsData } from './lesson.data.js';
 
 class LessonService {
   private lessons: ILesson[] = lessonsData;
