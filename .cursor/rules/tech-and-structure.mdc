@@ -1,0 +1,22 @@
+## tech stack
+Use this tech stack with latest versions:
+- express
+- typescript
+- git
+
+## structure
+- src
+    - modules
+        - module name
+            - module.name.controller.ts
+            - module.name.data.ts
+            - module.name.routes.ts
+            - module.name.service.ts
+        - module name
+            - module.name.controller.ts
+            - module.name.data.ts
+            - module.name.routes.ts
+            - module.name.service.ts
+    - middlewares
+    - app.ts
+    - index.ts
