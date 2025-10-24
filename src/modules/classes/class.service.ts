@@ -1,5 +1,4 @@
-import type { IClass } from './class.interface';
-import { classesData } from './class.data';
+import { classesData, type IClass } from './class.data';
 
 class ClassService {
   private classes: IClass[] = classesData;
