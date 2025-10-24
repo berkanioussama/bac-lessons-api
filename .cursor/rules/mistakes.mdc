@@ -1,0 +1,4 @@
+- fix imports whene change files places or delete files
+- delete unused files
+- delete unused code
+- dont use comments
